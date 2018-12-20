@@ -25,9 +25,9 @@ import socket
 from .pascal_functions import *
 
 ####################################
-path_to_pascal_output='/var/www/FlaskApp/FlaskApp/pascal_output/'
+path_to_pascal_output='/var/www/FlaskApp/gauss/pascal_output/'
 path_to_data = '/var/www/FlaskApp/data'
-path_to_submitted_geneSets = '/var/www/FlaskApp/FlaskApp/pascal_dowloaded_files/'
+path_to_submitted_geneSets = '/var/www/FlaskApp/gauss/pascal_dowloaded_files/'
 def verify_geneSet(gSet):
     geneIds = pd.read_csv(path_to_data+'/entrezID_symbol.txt',sep=',')
     unique_geneSymbols = set(geneIds.iloc[:,1].unique())
