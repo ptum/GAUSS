@@ -3,8 +3,8 @@ import dash_html_components as html
 import dash_table_experiments as dt
 from dash.dependencies import Input, Output,State
 import os
-from apps.app_config import app
-from apps import overview,diseasepathways,enrichmentanalysis, contacts, pascalanalysis
+from gauss.apps.app_config import app
+from gauss.apps import overview,diseasepathways,enrichmentanalysis, contacts, pascalanalysis
 
 
 noPage = html.Div([  # 404
