@@ -2,7 +2,7 @@ import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output
 import json
-from apps.app_config import *
+from gauss.apps.app_config import *
 
 FIGURE=trait_sim_graph()
 

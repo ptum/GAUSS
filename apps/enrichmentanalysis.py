@@ -8,7 +8,7 @@ import dash_html_components as html
 import dash_table_experiments as dt
 import numpy as np
 from dash.dependencies import Input, Output,State
-from apps.app_config import *
+from gauss.apps.app_config import *
 
 def jaccard_overlap(m1,m2):
     return 1.* len(set(m1).intersection(m2))/len(set(m1).union(m2))

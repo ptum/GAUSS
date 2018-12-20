@@ -8,7 +8,7 @@ import dash_html_components as html
 import dash_table_experiments as dt
 
 from dash.dependencies import Input, Output
-from apps.app_config import *
+from gauss.apps.app_config import *
 import os
 import json
 

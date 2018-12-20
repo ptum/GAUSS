@@ -6,7 +6,7 @@ Created on Apr 10, 2018
 
 import dash_core_components as dcc
 import dash_html_components as html
-from apps.app_config import *
+from gauss.apps.app_config import *
 layout = html.Div([  # page 6
 
         html.Div([

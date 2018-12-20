@@ -8,7 +8,8 @@ import dash_html_components as html
 import dash_table_experiments as dt
 import numpy as np
 from dash.dependencies import Input, Output,State
-from FlaskApp.apps.app_config import *
+from gauss.apps.app_config import *
+
 import os,subprocess,hashlib
 import pandas as pd
 import time
